@@ -1,0 +1,76 @@
+.bigbloc {
+  background-color:#35495d;
+  width: 100%;
+  height: 300px;
+
+}
+
+.app-title {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: xx-large;
+  margin-right: 2%;
+}
+.app-title1 {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: xx-large;
+  margin-right: 2%;
+}
+.add-btn {
+  display: absolute;
+  width: 100px;
+  height: 40px;
+  border-radius: 9%;
+  margin-left: 10%;
+}
+.material-icons {
+  width: 100px;
+  height: 40px;
+  border-radius: 2%;
+  margin-left: 66%;
+}
+.input {
+  width: 600px;
+  height: 50px;
+  margin-left: 10%;
+  border-radius: 9%;
+}
+.complete {
+  text-decoration: line-through;
+  color: red;
+}
+.view {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.btncomplete {
+  width: 100px;
+  height: 40px;
+}
+.btndelete {
+  width: 100px;
+  height: 40px;
+  border-radius: 2%;
+  background-color:rgb(130, 238, 135);
+  color: rgb(230, 13, 13);
+}
+.list{
+  padding-top: 140px;
+  padding-left: 140px;
+  line-height: 10%;
+  
+}
+.Bloc{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.all{
+  display: flex;
+  justify-content: space-around;
+}
