@@ -1,4 +1,10 @@
-import { ADD_TODO, DELETE_TODO, EDIT_TODO } from "../type";
+import {
+  ADD_TODO,
+  DELETE_TODO,
+  COMPLETE_TODO,
+  EDIT_TODO,
+  SAVE_EDIT
+} from "../type";
 export const addtodo = todo => {
   return {
     type: ADD_TODO,
@@ -11,9 +17,19 @@ export const deleteTodo = id => {
     payload: id
   };
 };
-export const editTodo = (id) => {
+export const completeTodo = id => {
+  return {
+    type: COMPLETE_TODO,
+    payload: id
+  };
+};
+export const editTodo = id => {
   return {
     type: EDIT_TODO,
     payload: id
   };
 };
+export const saveEdit = payload => ({
+  type: SAVE_EDIT,
+  payload
+});
